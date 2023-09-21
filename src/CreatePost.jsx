@@ -49,9 +49,10 @@ export default function CreatePost({dataObject, setDataObject, myProfileDetails}
         placeholder="News to share?"
         style={{overflow: 'hidden', resize: 'none',width: '100%'}}
       />
-      <button className="btn btn-primary" onClick={handleSendBtnClick}>
-        POST<i className="bi bi-arrow-right-square-fill ms-1"></i>
+      <button className="btn btn-primary" onClick={handleSendBtnClick} style={{width: '100%'}}>
+        POST <i className="bi bi-arrow-right-square-fill mb-1"></i>
       </button>
+      <br />
     </div>
   );
 }

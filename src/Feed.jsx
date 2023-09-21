@@ -22,27 +22,38 @@ export default function Feed() {
   };
 
   return (
-    <main>
-      <div>
-        <Navbar />
-        <h1>Posts</h1>
-        <CreatePost
-          dataObject={dataObject}
-          setDataObject={setDataObject}
-          myProfileDetails={myProfileDetails}
-        />
-        {/*<pre>{JSON.stringify(dataObject, null, 2)}</pre>*/}
-        {dataObject.map((postData, index) => (
-          <Post
-            key={index}
-            postData={postData}
-            setPostData={(updatedPostData) =>
-              handlePostDataUpdate(updatedPostData, index)
-            }
-            curDate={curDate}
+    <>
+      <header className="pt-5">
+        <div className="container pt-4 pt-xl-5">
+          <div className="row pt-5">
+            <div className="col-md-8 text-center text-md-start mx-auto">
+              <div className="text-center">
+                <h1 className="display-4 fw-bold mb-5"><span className="underline">Posts</span> for you</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section className="container">
+        <div>
+          <CreatePost
+            dataObject={dataObject}
+            setDataObject={setDataObject}
+            myProfileDetails={myProfileDetails}
           />
-        ))}
-      </div>
-    </main>
+          {/*<pre>{JSON.stringify(dataObject, null, 2)}</pre>*/}
+          {dataObject.map((postData, index) => (
+            <Post
+              key={index}
+              postData={postData}
+              setPostData={(updatedPostData) =>
+                handlePostDataUpdate(updatedPostData, index)
+              }
+              curDate={curDate}
+            />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }

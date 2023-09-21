@@ -14,6 +14,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route exact path='/' element={< Feed />}></Route>
+        <Route exact path='/index.html' element={< Feed />}></Route>
         <Route path='/project' element={< Project />}></Route>
         {/*
         <Route path='/features' element={<Features />} />
