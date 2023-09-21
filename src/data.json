@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Shruti Bansal",
+    "GraduationYear" : 2025,
+    "Major": "CSE",
+    "PostDate": "2023-09-12T09:32:18.598Z",
+    "Content": "I am working on a Social Media App. I would love to have some voluteers.",
+    "Comments": {},
+    "Likes": {
+      "state": true,
+      "count": 17
+    },
+    "Applications": {
+      "state": false,
+      "count": 3
+    },
+    "Views": {
+      "state": true,
+      "count": 23
+    }
+  },
+  {
+    "Name": "Rishabh Verma",
+    "GraduationYear" : 2024,
+    "Major": "ECE",
+    "PostDate": "2023-09-10T09:32:18.598Z",
+    "Content": "Just wanna share that that me and @AryanChawla have added Report button in our Travel App.",
+    "Comments": {},
+    "Likes": {
+      "state": false,
+      "count": 52
+    },
+    "Applications": {
+      "state": false,
+      "count": 1
+    },
+    "Views": {
+      "state": true,
+      "count": 240
+    }
+  },
+  {
+    "Name": "Aryan Chawla",
+    "GraduationYear" : 2020,
+    "Major": "Civil",
+    "PostDate": "2023-07-13T09:32:18.598Z",
+    "Content": "I am looking for some people to work on the Designing of my Website.",
+    "Comments": {},
+    "Likes": {
+      "state": true,
+      "count": 72
+    },
+    "Applications": {
+      "state": false,
+      "count": 17
+    },
+    "Views": {
+      "state": true,
+      "count": 24
+    }
+  }
+]
